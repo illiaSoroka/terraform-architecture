@@ -1,4 +1,4 @@
-# Pulls information from another workspace
+# Pulls information from vpc workspace
 data "terraform_remote_state" "vpc" {
   backend = "remote"
 
